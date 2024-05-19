@@ -1,0 +1,179 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .title h1 {
+    color: rgb(0, 183, 255);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .title h3 {
+    text-align: center;
+    color: white;
+  }
+
+  .title {
+    line-height: 2;
+    background-color: rgb(56, 56, 56);
+  }
+
+  .Header {
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    text-align: right;
+    background: none;
+  }
+
+  .Header li {
+    line-height: 2;
+    display: inline;
+    padding: 5px;
+    border: 4px solid rgb(255, 255, 255);
+    margin-right: 5px;
+  }
+
+  .Header button {
+    background: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 0;
+    padding: none;
+    cursor: pointer;
+  }
+
+  .portfolio h3 {
+    color: white;
+    font-size: 30px;
+  }
+
+  .portfolio #title {
+    color: white;
+    font-size: 80px;
+    background-color: black;
+    line-height: 1;
+    border: 4px solid rgb(255, 255, 255);
+  }
+
+.portfolio #physics_gun {
+  position: relative;
+  justify-content: flex-end;
+  margin-left: 0;
+  margin-right: auto;
+  position: relative;
+  max-width: 900px;
+  max-height: 900px;
+  width: auto;
+  height: auto;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.portfolio #physics_gun video {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+    max-width: 900px;
+    max-height: 900px;
+    width: auto;
+    height: auto;
+}
+
+.portfolio #physics_gun h3 {
+    position: relative;
+    top: 0px;
+    display: block;
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+}
+
+.portfolio #combat {
+  position: relative;
+  top: 10px;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+  position: relative;
+  max-width: 900px;
+  max-height: 900px;
+  width: auto;
+  height: auto;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.portfolio #combat video {
+  position: relative;
+    top: 0px; 
+    left: 0px;
+    display: block;
+    max-width: 900px;
+    max-height: 900px;
+    width: auto;
+    height: auto;
+}
+
+.portfolio #placement {
+  position: relative;
+  top: 10px;
+  justify-content: flex-end;
+  margin-left: 0;
+  margin-right: auto;
+  position: relative;
+  max-width: 900px;
+  max-height: 900px;
+  width: auto;
+  height: auto;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.portfolio #placement video {
+  position: relative;
+    top: 0px; 
+    left: 0px;
+    display: block;
+    max-width: 900px;
+    max-height: 900px;
+    width: auto;
+    height: auto;
+}
+
+.studios #title {
+  color: white;
+  font-size: 80px;
+  background-color: black;
+  line-height: 1;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.studios #list {
+  color: white;
+  font-size: 35px;
+  background-color: black;
+}
+
+.studios #list a {
+  font-size: 30px;
+}
+
+
+.contacts #title {
+  color: white;
+  font-size: 80px;
+  background-color: black;
+  line-height: 1;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.contacts #list {
+  color: white;
+  font-size: 35px;
+  background-color: black;
+}
